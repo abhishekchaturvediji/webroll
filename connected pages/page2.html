@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Mobile Devices
+		</title>
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/page2.css">
+		<script type="text/javascript" src="../js/jquery-3.5.1.slim.min.js"></script>
+  		<script src="../js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		
+		<header id="fheaderId">
+		<!-------------navbar------------>
+			<section>
+				<nav class="navbar navbar-light ">
+					<div id="navId">
+
+					  	<!---brand image--->
+						<div id="brandId">
+							<img src="../image/brandlogo.png">
+						</div>
+						<!---brand image--->
+					
+
+						<!---breadcrumb--->
+						<div id="breadcrumbId" class="mt-4 d-none d-xl-block d-none d-lg-block d-xl-none">
+							<nav aria-label="breadcrumb">
+							    <ol class="breadcrumb">
+								    <li class="breadcrumb-item">
+								    	<a href="../home/index.html" target="_blank">Home</a>
+								    </li>
+								    <li class="breadcrumb-item active" aria-current="page">
+								    	Product listing page
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page3.html" target="_blank">Detail Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page4.html" target="_blank">Cart Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page5.html" target="_blank">Checkout Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page6.html" target="_blank">Thankyou Page</a>
+								    </li>
+							    </ol>
+							</nav>
+						</div>
+						<!---breadcrumb--->	
+				    
+						<!----search box------>
+						<ul id="searchId" class="mt-4" >
+							<form class="form-inline">
+							      <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+							      <button class="btn btn-outline-secondary" type="submit">Search
+							      </button>
+						    </form>
+						</ul>
+						<!----search box------>
+
+
+						<!-- collapsible button visible on md and after-->
+						<div id="buttonId" class="d-xl-none d-lg-none ">
+							<button  class="navbar-toggler mt-4"  type ="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+						      <span class="navbar-toggler-icon"></span>
+						    </button>
+
+						    <div class="collapse" id="navbarToggleExternalContent">
+							    <ul class="breadcrumb">
+								    <li class="breadcrumb-item">
+								    	<a href="../home/index.html" target="_blank">Home</a>
+								    </li>
+								    <li class="breadcrumb-item active" aria-current="page">
+								    	Product listing page
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page3.html" target="_blank">Detail Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page4.html" target="_blank">Cart Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page5.html" target="_blank">Checkout Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page6.html" target="_blank">Thankyou Page</a>
+								    </li>
+							    </ul>	
+							</div>
+						</div>
+						<!-- collapsible button visible on md and after-->		
+					</div>					 
+				</nav>
+			</section>
+		<!-------------------------------------------------navbar ended---------------------------------->
+		</header>
+
+
+		<!------------------filtration sidebar starts here------------------->
+					
+		<div class="container" id="page2sidebarid">
+			<div class="row">
+				<aside class="col-sm-12 col-xs-12">
+					<!-------------------------FILTRATION 1--------------------->
+					<h4 id="filterationH">Filtration</h4>
+					<div class="card">
+						<article class="card-group-item">
+							<header class="card-header">
+								<h6 class="title">Brands</h6>
+							</header>
+							<div class="filter-content">
+								<div class="card-body">
+								<form>
+									<label class="form-check">
+									  <input class="form-check-input" type="checkbox" value="">
+									  <span class="form-check-label">
+									    Redmi
+									  </span>
+									</label> <!-- form-check.// -->
+									<label class="form-check">
+									  <input class="form-check-input" type="checkbox" value="">
+									  <span class="form-check-label">
+									    Asus
+									  </span>
+									</label>  <!-- form-check.// -->
+									<label class="form-check">
+									  <input class="form-check-input" type="checkbox" value="">
+									  <span class="form-check-label">
+									    Moto
+									  </span>
+									</label>
+									<label class="form-check">
+									  <input class="form-check-input" type="checkbox" value="">
+									  <span class="form-check-label">
+									    Vivo
+									  </span>
+									</label>  <!-- form-check.// -->
+								</form>
+
+								</div> <!-- card-body.// -->
+							</div>
+						</article> <!-- card-group-item.// -->
+						
+						<article class="card-group-item">
+							<header class="card-header">
+								<h6 class="title">Choose type </h6>
+							</header>
+							<div class="filter-content">
+								<div class="card-body">
+								<label class="form-check">
+								  <input class="form-check-input" type="radio" name="exampleRadio" value="">
+								  <span class="form-check-label">
+								    First hand items
+								  </span>
+								</label>
+								<label class="form-check">
+								  <input class="form-check-input" type="radio" name="exampleRadio" value="">
+								  <span class="form-check-label">
+								    Brand new items
+								  </span>
+								</label>
+								<label class="form-check">
+								  <input class="form-check-input" type="radio" name="exampleRadio" value="">
+								  <span class="form-check-label">
+								    Some other option
+								  </span>
+								</label>
+								</div> <!-- card-body.// -->
+							</div>
+						</article> <!-- card-group-item.// -->
+					</div> <!-- card.// -->
+				</aside> <!-- col.// -->
+			    <!-------------------------FILTRATION 1--------------------->
+
+
+
+
+			    <!-------------------------FILTRATION 2--------------------->
+				<aside class="col-sm-12">
+					<p></p>
+					<div class="card">
+						<article class="card-group-item">
+							<header class="card-header"><h6 class="title">Color check</h6></header>
+							<div class="filter-content">
+								<div class="card-body">
+									<label class="btn btn-danger">
+									  <input class="" type="checkbox" name="myradio" value="">
+									  <span class="form-check-label">Red</span>
+									</label>
+									<label class="btn btn-success">
+									  <input class="" type="checkbox" name="myradio" value="">
+									  <span class="form-check-label">Green</span>
+									</label>
+									<label class="btn btn-primary">
+									  <input class="" type="checkbox" name="myradio" value="">
+									  <span class="form-check-label">Blue</span>
+									</label>
+								</div> <!-- card-body.// -->
+							</div>
+						</article> <!-- card-group-item.// -->
+					</div> <!-- card.// -->
+				</aside> <!-- col.// -->
+			    <!-------------------------FILTRATION 2--------------------->
+
+
+			    <!--/*****************FILTRATION 3************************/-->
+				<aside class="col-sm-12">
+					<p></p>
+					<div class="card">
+						<article class="card-group-item">
+							<header class="card-header">
+								<h6 class="title">Range input </h6>
+							</header>
+							<div class="filter-content">
+								<div class="card-body">
+								<div class="form-row">
+								<div class="form-group col-md-6">
+								  <label>Min</label>
+								  <input type="number" class="form-control" id="inputEmail4" placeholder="$0">
+								</div>
+								<div class="form-group col-md-6 text-right">
+								  <label>Max</label>
+								  <input type="number" class="form-control" placeholder="$1,0000">
+								</div>
+								</div>
+								</div> <!-- card-body.// -->
+							</div>
+						</article> <!-- card-group-item.// -->
+						<article class="card-group-item">
+							<header class="card-header">
+								<h6 class="title">Selection </h6>
+							</header>
+							<div class="filter-content">
+								<div class="card-body">
+									<div class="custom-control custom-checkbox">
+										<span class="float-right badge badge-light round">52</span>
+									  	<input type="checkbox" class="custom-control-input" id="Check1">
+									  	<label class="custom-control-label" for="Check1">Redmi</label>
+									</div> <!-- form-check.// -->
+
+									<div class="custom-control custom-checkbox">
+										<span class="float-right badge badge-light round">132</span>
+									  	<input type="checkbox" class="custom-control-input" id="Check2">
+									 	<label class="custom-control-label" for="Check2">Moto</label>
+									</div> <!-- form-check.// -->
+
+									<div class="custom-control custom-checkbox">
+										<span class="float-right badge badge-light round">17</span>
+									  	<input type="checkbox" class="custom-control-input" id="Check3">
+									  	<label class="custom-control-label" for="Check3">Vivo</label>
+									</div> <!-- form-check.// -->
+
+									<div class="custom-control custom-checkbox">
+										<span class="float-right badge badge-light round">7</span>
+									  	<input type="checkbox" class="custom-control-input" id="Check4">
+									  	<label class="custom-control-label" for="Check4">Asus</label>
+									</div> <!-- form-check.// -->
+								</div> <!-- card-body.// -->
+							</div>
+						</article> <!-- card-group-item.// -->
+					</div> <!-- card.// -->
+				</aside> <!-- col.// -->
+			   <!--/*******************************FILTRATION 3 ENDED**********************************/-->
+			</div> <!-- row.// -->
+		</div> 
+		<!--container end.//-->	
+        <!---------------------filtration sidebar ends here------------------->
+
+
+		<!---------------------- Product card starts here---------------------->
+		<div id="statsproductcardid">
+			<div class="row" id="cardid">
+
+				<!-----first product card starts here---------------->
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			    <div class="card" >
+			    	<div class="row">
+			    		<div class="col-4">
+			    			<img src="../image/moimg1.jpeg"   alt="..." id="cardimgid">
+			    			<label for="cardimgid"><h5>Redmi 8A</h5></label>
+			    		</div>
+			    		<div class="col-8">
+			    			<div id="card-bodyid">
+						        <p class="">RAM: 4Gb<br>
+						        	Camera:25px<br>
+						        	offer: <em>available till lockdown</em>
+						        	4600 mAh<br>
+						            Price:₹6999/- 
+						        </p>
+							    <a href="#" aria-label="Next">
+							    	<a href="page3.html" target="_blank">
+							        ..<span aria-hidden="true">&raquo;</span>Read More</a>
+								    <p class="btn btn-info">Add to cart &nbsp; 
+									    <svg class="bi bi-cart4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+										</svg>
+									</p>
+							    </a>
+							</div>  
+			    		</div>
+			      </div>
+			    </div>
+			</div>
+			<!--first product card ended-->
+
+			<!--Second product card starts here-->
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			    <div class="card" >
+			    	<div class="row">
+			    		<div class="col-4">
+			    			<img src="../image/moimg2.jpeg"   alt="..." id="cardimgid">
+			    			<label for="cardimgid"><h6>Asus Rog 2</h6></label>
+			    		</div>
+			    		<div class="col-8">
+			    			<div id="card-bodyid">
+						        <p class="">RAM: 2Gb<br>
+						        	Camera:23px<br>
+						        	offer: <em>available till lockdown</em>
+						        	4090 mAh<br>
+						            Price:$350/- 
+						        </p>
+							    <a href="#" aria-label="Next">
+							        ..<span aria-hidden="true">&raquo;</span>Read More
+								    <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Add to cart &nbsp; 
+									    <svg class="bi bi-cart4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+										</svg>
+									</a>
+							    </a>
+							</div>  
+			    		</div>
+			      </div>
+			    </div>
+			</div>
+			<!--Second product card ended-->
+
+			<!--Third product card starts here-->
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			    <div class="card" >
+			    	<div class="row">
+			    		<div class="col-4">
+			    			<img src="../image/moiimg3.jpeg"   alt="..." id="cardimgid">
+			    			<label for="cardimgid"><h6>Moto G8 Plus</h6></label>
+			    		</div>
+			    		<div class="col-8">
+			    			<div id="card-bodyid">
+						        <p class="">RAM: 4Gb<br>
+						        	Camera:20px<br>
+						        	offer: <em>available till lockdown</em>
+						        	4500 mAh<br>
+						            Price:$600/- </p>
+							    <a href="#" aria-label="Next">
+							        ..<span aria-hidden="true">&raquo;</span>Read More
+							        <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Add to cart &nbsp; <svg class="bi bi-cart4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+								</svg></a>
+							    </a>
+							</div>  
+			    		</div>
+			      </div>
+			    </div>
+			</div>
+			<!--Third product card ended-->
+
+			<!--fourth product card starts here-->
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			    <div class="card" >
+			    	<div class="row">
+			    		<div class="col-4">
+			    			<img src="../image/moimg4.jpeg"   alt="..." id="cardimgid">
+			    			<label for="cardimgid"><h5>Redmi K20</h5></label>
+			    		</div>
+			    		<div class="col-8">
+			    			<div id="card-bodyid">
+						        <p class="">RAM: 3Gb<br>
+						        	Camera:18px<br>
+						        	offer: <em>available till lockdown</em>
+						        	5000 mAh<br>
+						        Price:$560/- </p>
+							    <a href="#" aria-label="Next">
+							        ..<span aria-hidden="true">&raquo;</span>Read More
+							        <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Add to cart &nbsp; <svg class="bi bi-cart4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+								</svg></a>
+							    </a>
+							</div>  
+			    		</div>
+			      </div>
+			    </div>
+			</div>
+			<!--fourth product card ended-->
+
+			 <!--fifth product card starts here-->
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			    <div class="card" >
+			    	<div class="row">
+			    		<div class="col-4">
+			    			<img src="../image/moimg5.jpeg"   alt="..." id="cardimgid">
+			    			<label for="cardimgid"><h6>Black Shark 2</h6></label>
+			    		</div>
+			    		<div class="col-8">
+			    			<div id="card-bodyid">
+						        <p class="">RAM: 2Gb<br>
+						        	Camera:15px<br>
+						        	offer: <em>available till lockdown</em>
+						        	4080 mAh<br>
+						        Price:$650/- </p>
+							    <a href="#" aria-label="Next">
+							        ..<span aria-hidden="true">&raquo;</span>Read More
+							        <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Add to cart &nbsp;<svg class="bi bi-cart4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+									  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+									</svg></a>
+							    </a>
+							</div>  
+			    		</div>
+			      </div>
+			    </div>
+			</div>
+			<!--fifth product card ended-->
+
+
+			<!--sixth product card starts here-->
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			    <div class="card" >
+			    	<div class="row">
+			    		<div class="col-4">
+			    			<img src="../image/moimg6.jpeg"   alt="..." id="cardimgid">
+			    			<label for="cardimgid"><h6>Vivo Z1 Pro</h6></label>
+			    		</div>
+			    		<div class="col-8">
+			    			<div id="card-bodyid">
+						        <p class="">RAM: 2Gb<br>
+						        	Camera:12px<br>
+						        	offer: <em>available till lockdown</em>
+						        	4000 mAh<br>
+						        Price: $500/- </p>
+							    <a href="#" aria-label="Next">
+							        ..<span aria-hidden="true">&raquo;</span>Read More
+							    </a>
+								    <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Add to cart &nbsp;<svg class="bi bi-cart4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+									  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+								</svg></a>
+							</div>  
+			    		</div>
+			      </div>
+			    </div>
+			</div>
+			<!--sixth  product card ended-->
+
+			 <!--Third product card starts here-->
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			    <div class="card" >
+			    	<div class="row">
+			    		<div class="col-4">
+			    			<img src="../image/moiimg3.jpeg"   alt="..." id="cardimgid">
+			    			<label for="cardimgid"><h6>Moto G8 Plus</h6></label>
+			    		</div>
+			    		<div class="col-8">
+			    			<div id="card-bodyid">
+						        <p class="">RAM: 4Gb<br>
+						        	Camera:20px<br>
+						        	offer: <em>available till lockdown</em>
+						        	4500 mAh<br>
+						            Price:$600/- </p>
+							    <a href="#" aria-label="Next">
+							        ..<span aria-hidden="true">&raquo;</span>Read More
+							        <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Add to cart &nbsp; <svg class="bi bi-cart4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+								</svg></a>
+							    </a>
+							</div>  
+			    		</div>
+			      </div>
+			    </div>
+			</div>
+			<!--Third product card ended-->
+
+			<!--fourth product card starts here-->
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			    <div class="card" >
+			    	<div class="row">
+			    		<div class="col-4">
+			    			<img src="../image/moimg4.jpeg"   alt="..." id="cardimgid">
+			    			<label for="cardimgid"><h5>Redmi K20</h5></label>
+			    		</div>
+			    		<div class="col-8">
+			    			<div id="card-bodyid">
+						        <p class="">RAM: 3Gb<br>
+						        	Camera:18px<br>
+						        	offer: <em>available till lockdown</em>
+						        	5000 mAh<br>
+						        Price:$560/- </p>
+							    <a href="#" aria-label="Next">
+							        ..<span aria-hidden="true">&raquo;</span>Read More
+							        <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Add to cart &nbsp; <svg class="bi bi-cart4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+								</svg></a>
+							    </a>
+							</div>  
+			    		</div>
+			      </div>
+			    </div>
+			</div>
+			<!--fourth product card ended-->
+
+			 <!--fifth product card starts here-->
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			    <div class="card" >
+			    	<div class="row">
+			    		<div class="col-4">
+			    			<img src="../image/moimg5.jpeg"   alt="..." id="cardimgid">
+			    			<label for="cardimgid"><h6>Black Shark 2</h6></label>
+			    		</div>
+			    		<div class="col-8">
+			    			<div id="card-bodyid">
+						        <p class="">RAM: 2Gb<br>
+						        	Camera:15px<br>
+						        	offer: <em>available till lockdown</em>
+						        	4080 mAh<br>
+						        Price:$650/- </p>
+							    <a href="#" aria-label="Next">
+							        ..<span aria-hidden="true">&raquo;</span>Read More
+							        <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Add to cart &nbsp;<svg class="bi bi-cart4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+									  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+									</svg></a>
+							    </a>
+							</div>  
+			    		</div>
+			      </div>
+			    </div>
+			</div>
+			<!--fifth product card ended-->
+
+
+			<!--sixth product card starts here-->
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			    <div class="card" >
+			    	<div class="row">
+			    		<div class="col-4">
+			    			<img src="../image/moimg6.jpeg"   alt="..." id="cardimgid">
+			    			<label for="cardimgid"><h6>Vivo Z1 Pro</h6></label>
+			    		</div>
+			    		<div class="col-8">
+			    			<div id="card-bodyid">
+						        <p class="">RAM: 2Gb<br>
+						        	Camera:12px<br>
+						        	offer: <em>available till lockdown</em>
+						        	4000 mAh<br>
+						        Price: $500/- </p>
+							    <a href="#" aria-label="Next">
+							        ..<span aria-hidden="true">&raquo;</span>Read More
+							    </a>
+								    <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Add to cart &nbsp;<svg class="bi bi-cart4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+									  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+								</svg></a>
+							</div>  
+			    		</div>
+			      </div>
+			    </div>
+			</div>
+			<!--sixth  product card ended-->	
+			 <!--Third product card starts here-->
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			    <div class="card" >
+			    	<div class="row">
+			    		<div class="col-4">
+			    			<img src="../image/moiimg3.jpeg"   alt="..." id="cardimgid">
+			    			<label for="cardimgid"><h6>Moto G8 Plus</h6></label>
+			    		</div>
+			    		<div class="col-8">
+			    			<div id="card-bodyid">
+						        <p class="">RAM: 4Gb<br>
+						        	Camera:20px<br>
+						        	offer: <em>available till lockdown</em>
+						        	4500 mAh<br>
+						            Price:$600/- </p>
+							    <a href="#" aria-label="Next">
+							        ..<span aria-hidden="true">&raquo;</span>Read More
+							        <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Add to cart &nbsp; <svg class="bi bi-cart4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+								</svg></a>
+							    </a>
+							</div>  
+			    		</div>
+			      </div>
+			    </div>
+			</div>
+			<!--Third product card ended-->
+
+			<!--fourth product card starts here-->
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			    <div class="card" >
+			    	<div class="row">
+			    		<div class="col-4">
+			    			<img src="../image/moimg4.jpeg"   alt="..." id="cardimgid">
+			    			<label for="cardimgid"><h5>Redmi K20</h5></label>
+			    		</div>
+			    		<div class="col-8">
+			    			<div id="card-bodyid">
+						        <p class="">RAM: 3Gb<br>
+						        	Camera:18px<br>
+						        	offer: <em>available till lockdown</em>
+						        	5000 mAh<br>
+						        Price:$560/- </p>
+							    <a href="#" aria-label="Next">
+							        ..<span aria-hidden="true">&raquo;</span>Read More
+							        <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Add to cart &nbsp; <svg class="bi bi-cart4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+								</svg></a>
+							    </a>
+							</div>  
+			    		</div>
+			      </div>
+			    </div>
+			</div>
+			<!--fourth product card ended-->		
+		</div>
+		  
+      	
+      	<div>
+      	<!--pagination starts here--->
+      		<nav aria-label="Page navigation" id="paginationid">
+			  <ul class="pagination justify-content-center">
+			    <li class="page-item">
+			      <a class="page-link" href="#" aria-label="Previous">
+			        <span aria-hidden="true">&laquo;</span>
+			      </a>
+			    </li>
+			    <li class="page-item"><a class="page-link" href="#">1</a></li>
+			    <li class="page-item"><a class="page-link" href="#">2</a></li>
+			    <li class="page-item"><a class="page-link" href="#">3</a></li>
+			    <li class="page-item"><a class="page-link" href="#">4</a></li>
+			    <li class="page-item"><a class="page-link" href="#">5</a></li>
+			    <li class="page-item"><a class="page-link" href="#">6</a></li>
+			    <li class="page-item">
+			      <a class="page-link" href="#" aria-label="Next">
+			        <span aria-hidden="true">&raquo;</span>
+			      </a>
+			    </li>
+			  </ul>
+			</nav>
+		<!--pagination ends here--->
+      	</div>
+	  </div>
+
+		<!---------------------Related Carousel starts here--------------------->
+	    <div>
+	      	<div class="container-fluid">
+			  <section>
+			      <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2 product-carousel" data-ride="carousel">
+			      	<h3  id="coloringtitle">Related Searches...</h3>
+			        <!--Controls-->
+			        <div class="controls-top my-3 center">
+			          <a class="btn-floating btn-sm h-100 " href="#carousel-example-multi" data-slide="prev"><svg class="bi bi-arrow-left-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					  <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+					  <path fill-rule="evenodd" d="M8.354 11.354a.5.5 0 0 0 0-.708L5.707 8l2.647-2.646a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708 0z"/>
+					  <path fill-rule="evenodd" d="M11.5 8a.5.5 0 0 0-.5-.5H6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5z"/>
+					  </svg><i class="fas fa-chevron-left"></i></a>&nbsp;&nbsp;
+			          <a class="btn-floating btn-sm h-100 " href="#carousel-example-multi" data-slide="next"><i class="fas fa-chevron-right"></i><svg class="bi bi-arrow-right-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					  <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+					  <path fill-rule="evenodd" d="M7.646 11.354a.5.5 0 0 1 0-.708L10.293 8 7.646 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0z"/>
+					  <path fill-rule="evenodd" d="M4.5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z"/>
+					 </svg></a>
+			        </div>
+			        <!--/.Controls-->
+
+			        <!-- Indicators -->
+			        <div id="corousel-indicators">
+			        <ol class="carousel-indicators">
+			          <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+			          <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+			          <li data-target="#carousel-example-multi" data-slide-to="2"></li>
+			          <li data-target="#carousel-example-multi" data-slide-to="3"></li>
+			          <li data-target="#carousel-example-multi" data-slide-to="4"></li>
+			          <li data-target="#carousel-example-multi" data-slide-to="5"></li>
+			          <li data-target="#carousel-example-multi" data-slide-to="6"></li>
+			          <li data-target="#carousel-example-multi" data-slide-to="7"></li>
+			          <li data-target="#carousel-example-multi" data-slide-to="8"></li>
+			        </ol>
+			        </div>
+			        <!--/.Indicators-->
+
+			        <div class="carousel-inner" role="listbox">
+			          <div class="carousel-item active mx-auto">
+			            <div class="col-12 col-md-4 col-lg-2 mx-auto">
+			              <div class="card mb-2">
+			                <div class="view overlay">
+			                  <img class="card-img-top" src="../image/related1.jpeg" alt="Card image cap">
+			                  <a href="#!">
+			                    <div class="mask rgba-white-slight"></div>
+			                  </a>
+			                </div>
+			                <div class="card-body p-3">
+			                  <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">Laptop</h5>
+			                  <p class="aqua-sky-text mb-0">Obsidian Black</p>
+			                  <ul class="list-unstyled list-inline my-2">
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt mimosa-text"></i></li>
+			                  </ul>
+			                  <p class="chili-pepper-text mb-0">₹41000/-</p>
+			                </div>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="carousel-item">
+			            <div class="col-12 col-md-4 col-lg-2 mx-auto">
+			              <div class="card mb-2">
+			                <div class="view overlay">
+			                  <img class="card-img-top" src="../image/related2.jpeg" alt="Card image cap">
+			                  <a href="#!">
+			                    <div class="mask rgba-white-slight"></div>
+			                  </a>
+			                </div>
+			                <div class="card-body p-3">
+			                  <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">Sony</h5>
+			                  <p class="aqua-sky-text mb-0">Headphone & Speakers</p>
+			                  <ul class="list-unstyled list-inline my-2">
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="far fa-star mimosa-text"></i></li>
+			                  </ul>
+			                  <p class="chili-pepper-text mb-0">Upto 50% off</p>
+			                </div>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="carousel-item">
+			            <div class="col-12 col-md-4 col-lg-2 mx-auto">
+			              <div class="card mb-2">
+			                <div class="view overlay">
+			                  <img class="card-img-top" src="../image/related3.jpeg" alt="Card image cap">
+			                  <a href="#!">
+			                    <div class="mask rgba-white-slight"></div>
+			                  </a>
+			                </div>
+			                <div class="card-body p-3">
+			                  <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">Thermal Detector</h5>
+			                  <p class="aqua-sky-text mb-0">Technology Fest</p>
+			                  <ul class="list-unstyled list-inline my-2">
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                  </ul>
+			                  <p class="chili-pepper-text mb-0">₹1100/-</p>
+			                </div>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="carousel-item">
+			            <div class="col-12 col-md-4 col-lg-2 mx-auto">
+			              <div class="card mb-2">
+			                <div class="view overlay">
+			                  <img class="card-img-top" src="../image/related10.jpeg" alt="Card image cap">
+			                  <a href="#!">
+			                    <div class="mask rgba-white-slight"></div>
+			                  </a>
+			                </div>
+			                <div class="card-body p-3">
+			                  <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">infinix S5</h5>
+			                  <p class="aqua-sky-text mb-0">15+5+2MP Rear Camera</p>
+			                  <ul class="list-unstyled list-inline my-2">
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt mimosa-text"></i></li>
+			                  </ul>
+			                  <p class="chili-pepper-text mb-0">₹8999/-</p>
+			                </div>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="carousel-item">
+			            <div class="col-12 col-md-4 col-lg-2 mx-auto">
+			              <div class="card mb-2">
+			                <div class="view overlay">
+			                  <img class="card-img-top" src="../image/related5.jpeg" alt="Card image cap">
+			                  <a href="#!">
+			                    <div class="mask rgba-white-slight"></div>
+			                  </a>
+			                </div>
+			                <div class="card-body p-3">
+			                  <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">Bluetooth Speakers</h5>
+			                  <p class="aqua-sky-text mb-0">Under ₹1999/-</p>
+			                  <ul class="list-unstyled list-inline my-2">
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                  </ul>
+			                  <p class="chili-pepper-text mb-0">BoAt,F&D & more</p>
+			                </div>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="carousel-item">
+			            <div class="col-12 col-md-4 col-lg-2 mx-auto">
+			              <div class="card mb-2">
+			                <div class="view overlay">
+			                  <img class="card-img-top" src="../image/related6.jpeg" alt="Card image cap">
+			                  <a href="#!">
+			                    <div class="mask rgba-white-slight"></div>
+			                  </a>
+			                </div>
+			                <div class="card-body p-3">
+			                  <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">Best Selling Laptops</h5>
+			                  <p class="aqua-sky-text mb-0">Upto 40% off</p>
+			                  <ul class="list-unstyled list-inline my-2">
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt mimosa-text"></i></li>
+			                  </ul>
+			                  <p class="chili-pepper-text mb-0">HP, Acer,Asus & more</p>
+			                </div>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="carousel-item">
+			            <div class="col-12 col-md-4 col-lg-2 mx-auto">
+			              <div class="card mb-2">
+			                <div class="view overlay">
+			                  <img class="card-img-top" src="../image/related7.jpeg" alt="Card image cap">
+			                  <a href="#!">
+			                    <div class="mask rgba-white-slight"></div>
+			                  </a>
+			                </div>
+			                <div class="card-body p-3">
+			                  <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">Bluetooth Speakers</h5>
+			                  <p class="aqua-sky-text mb-0">Bestsellers</p>
+			                  <ul class="list-unstyled list-inline my-2">
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="far fa-star mimosa-text"></i></li>
+			                  </ul>
+			                  <p class="chili-pepper-text mb-0">Sony,JBl and more.</p>
+			                </div>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="carousel-item">
+			            <div class="col-12 col-md-4 col-lg-2 mx-auto">
+			              <div class="card mb-2">
+			                <div class="view overlay">
+			                  <img class="card-img-top" src="../image/related8.jpeg" alt="Card image cap">
+			                  <a href="#!">
+			                    <div class="mask rgba-white-slight"></div>
+			                  </a>
+			                </div>
+			                <div class="card-body p-3">
+			                  <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">Bluetooth Headphones</h5>
+			                  <p class="aqua-sky-text mb-0">Top 10</p>
+			                  <ul class="list-unstyled list-inline my-2">
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt mimosa-text"></i></li>
+			                  </ul>
+			                  <p class="chili-pepper-text mb-0">boAt,JBl..</p>
+			                </div>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="carousel-item">
+			            <div class="col-12 col-md-4 col-lg-2 mx-auto">
+			              <div class="card mb-2">
+			                <div class="view overlay">
+			                  <img class="card-img-top" src="../image/related9.jpeg" alt="Card image cap">
+			                  <a href="#!">
+			                    <div class="mask rgba-white-slight"></div>
+			                  </a>
+			                </div>
+			                <div class="card-body p-3">
+			                  <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">boAt</h5>
+			                  <p class="aqua-sky-text mb-0">Headphones And Speakers</p>
+			                  <ul class="list-unstyled list-inline my-2">
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                    <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+			                  </ul>
+			                  <p class="chili-pepper-text mb-0">From ₹399/-</p>
+			                </div>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+			  </section>
+			</div>
+	    </div>
+	    <!--------------------------Related Carousel ends here-------------------->
+	      
+    
+	
+
+		<!-- Modal text -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title w-100 text-center" id="exampleModalLabel">SORRY!!</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        We are really sorry, but this item ran OUT OF STOCK and the WebSite is in progress.!!<br>
+		        YOU CAN ONLY ORDER REDMI 8A.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">GOT IT!!</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Modal text -->
+
+
+	  <script type="text/javascript" src="../js/page2.js"></script>
+	</body>
+</html>

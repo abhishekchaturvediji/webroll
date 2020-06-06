@@ -1,0 +1,289 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+body{
+	background-image: url("../image/bgimgn7.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+/************************* styling nav****************************/
+
+#navId{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#buttonId{
+   
+   text-align: center;
+}
+
+
+#navbarToggleExternalContent{
+	background-color: white;
+	color: black;
+	text-align:center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#brandId img{
+ height: 7rem;
+}
+
+#brandId{
+	padding: 10px;
+}
+
+
+#breadcrumbId{
+	
+	padding: 10px;
+}
+
+#searchId{
+	
+	padding: 10px;
+}
+
+
+header{
+ background-color: #e3f2fd;
+ background-image: url("../image/shopwithus2.png");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+
+}
+
+
+/********************** styling nav ends here**********************/
+
+
+
+
+
+
+
+/*****************styling imgae division starts here*****************/
+#wellBigss{
+	width: 35%;
+	height: 30rem;
+	margin: 1%;
+	float: left;
+	display:inline-block; 
+}
+
+#btnid{
+	display:inline-block;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+#wellss{
+	width:100%; 
+	height:100%;
+	float: left;
+}
+
+#wellSm1,#wellSm2,#wellSm3,#wellSm4{
+	margin: 1%;
+	border: 1px outset black;
+	height:5rem;
+	float: left;
+}
+
+
+#imgIdss{
+	width: 100%;
+	height:100%;
+}
+
+#imgId1ss{
+	margin-top: 2.5%;
+	height:95%;
+	width:70%;
+}
+
+#imgId2ss{
+	margin-top: 2.5%;
+	height:95%;
+	width:70%;
+}
+
+#imgId3ss{
+	margin-top: 2.5%;
+	width: 10%;
+	height:95%;
+	margin-left: 40%;
+}
+#imgId4ss{
+	width: 100%;
+	height: 10%;
+	margin-top: 40%;
+}
+
+/*****************styling imgae division ends here*****************/
+
+
+
+
+
+
+
+/*************************styling title starts here*************************/
+#titleid{
+	text-align: center;
+	float: left;
+	border: 1px solid green;
+	display: inline-block;
+	margin:1%;
+	width: 61%; 
+	background-color: #dcc2c2;
+}
+
+/*************************styling title ends here*************************/
+
+
+
+
+
+
+
+/**********************styling tabs start here******************************/
+#tabs{
+	float: left;
+	width: 61%;
+	margin: 1%;
+}
+/**********************styling tabs ends here*******************************/
+
+
+
+
+
+
+
+/***********************************styling Carousel strats********************************************/
+
+.carousel-multi-item.v-2.product-carousel .carousel-inner .carousel-item.active,
+.carousel-multi-item.v-2.product-carousel .carousel-item-next,
+.carousel-multi-item.v-2.product-carousel .carousel-item-prev {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+.carousel-multi-item.v-2.product-carousel .carousel-item-right.active,
+.carousel-multi-item.v-2.product-carousel .carousel-item-next {
+  -webkit-transform: translateX(20%);
+  -ms-transform: translateX(20%);
+  transform: translateX(20%); }
+.carousel-multi-item.v-2.product-carousel .carousel-item-left.active,
+.carousel-multi-item.v-2.product-carousel .carousel-item-prev {
+  -webkit-transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  transform: translateX(-20%); }
+.carousel-multi-item.v-2.product-carousel .carousel-item-right,
+.carousel-multi-item.v-2.product-carousel .carousel-item-left {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0); }
+.carousel-multi-item.v-2.product-carousel *, .carousel-multi-item.v-2.product-carousel ::after, .carousel-multi-item.v-2.product-carousel ::before {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+.fuchsia-rose-text {
+  color: #db0075;
+}
+.aqua-sky-text {
+  color: #5cc6c3;
+}
+.mimosa-text {
+  color: #F0C05A;
+}
+.list-inline-item .fas, .list-inline-item .far {
+  font-size: .8rem;
+}
+.chili-pepper-text {
+  color: #9B1B30;
+}
+.carousel-multi-item .controls-top .btn-floating {
+  background: #F8CDCD;
+}
+.carousel-multi-item .carousel-indicators li {
+  height: .75rem;
+  width: .75rem;
+  max-width: .75rem;
+  background-color: #5cc6c3;
+}
+.carousel-multi-item .carousel-indicators .active {
+  height: 1rem;
+  width: 1rem;
+  max-width: 1rem;
+  background-color: #5cc6c3;
+}
+.carousel-multi-item .carousel-indicators {
+  margin-bottom: -1rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 0;
+  padding-top:2%;
+}
+
+.carousel-inner img{
+	height: 15rem;
+	width: 70%;
+}
+
+.carousel-item{
+	margin-bottom: 2%;
+}
+.container-fluid{
+	margin-top: ;
+	float: left;
+}
+.container-fluid h3{
+	text-align: center;
+	
+}
+
+#carouselidss{
+	float: left;
+	width: 100%;
+}
+/***************************************styling carousel ends here********************************************/
+
+
+
+/*spacing column btw tabs and carousel*/
+#spacingcol{
+	height: 3rem;
+	float: left;
+	margin-top: 2%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+

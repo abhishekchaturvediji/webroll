@@ -1,0 +1,247 @@
+*{
+	box-sizing: border-box; 
+  padding: 0;
+  margin: 0;
+}
+
+
+
+body{
+  background-image: url("../image/bgimgn2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#filterationH{
+    color: #dbe2e7;
+}
+
+#coloringtitle{
+  color: #dbe2e7;
+}
+
+/************************* styling nav****************************/
+
+#navId{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#buttonId{
+   
+   text-align: center;
+}
+
+
+#navbarToggleExternalContent{
+  background-color: white;
+  color: black;
+  text-align:center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+#brandId img{
+ height: 7rem;
+}
+
+#brandId{
+  padding: 10px;
+}
+
+
+#breadcrumbId{
+  
+  padding: 10px;
+}
+
+#searchId{
+  
+  padding: 10px;
+}
+
+#fheaderId{
+ background-color: #e3f2fd;
+ background-image: url("../image/shopwithus2.png");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+
+}
+/********************** styling nav ends here**********************/
+
+
+
+
+
+
+
+/***********************styling sidebar starts here****************************************/
+#page2sidebarid{
+	border:1px dotted black;
+	width: 15%;
+	float: left;
+}
+
+@media screen and (max-width: 1170px){
+  #page2sidebarid{
+    border:1px dotted black;
+    width: 22%;
+    float: left;
+  }
+}
+@media screen and (max-width: 991px){
+  #page2sidebarid{
+    border:1px dotted black;
+    width: 26%;
+    float: left;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  #page2sidebarid{
+    border:1px dotted black;
+    width: 38%;
+    float: left;
+  }
+}
+/***********************styling sidebar ends here****************************************/
+
+
+
+
+
+
+
+/************************card styling starts here***************************************/
+
+#cardid div{
+	float: left;
+	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#statsproductcardid{
+	width: 100%;
+}
+
+#cardid{
+  
+}
+
+#cardid img{
+	height: 9rem;
+	float: left;
+}
+
+#card-bodyid{
+	float: left;
+}
+/****************************card styling ends here************************************************/
+
+
+
+
+
+
+
+/*******************************pagination styling starts here************************************/
+#paginationid{
+	margin-top: 2%;
+}
+/*******************************pagination styling ends here************************************/
+
+
+
+
+
+
+
+/***********************************styling Carousel strats********************************************/
+
+.carousel-multi-item.v-2.product-carousel .carousel-inner .carousel-item.active,
+.carousel-multi-item.v-2.product-carousel .carousel-item-next,
+.carousel-multi-item.v-2.product-carousel .carousel-item-prev {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+.carousel-multi-item.v-2.product-carousel .carousel-item-right.active,
+.carousel-multi-item.v-2.product-carousel .carousel-item-next {
+  -webkit-transform: translateX(20%);
+  -ms-transform: translateX(20%);
+  transform: translateX(20%); }
+.carousel-multi-item.v-2.product-carousel .carousel-item-left.active,
+.carousel-multi-item.v-2.product-carousel .carousel-item-prev {
+  -webkit-transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  transform: translateX(-20%); }
+.carousel-multi-item.v-2.product-carousel .carousel-item-right,
+.carousel-multi-item.v-2.product-carousel .carousel-item-left {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0); }
+.carousel-multi-item.v-2.product-carousel *, .carousel-multi-item.v-2.product-carousel ::after, .carousel-multi-item.v-2.product-carousel ::before {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+.fuchsia-rose-text {
+  color: #db0075;
+}
+.aqua-sky-text {
+  color: #5cc6c3;
+}
+.mimosa-text {
+  color: #F0C05A;
+}
+.list-inline-item .fas, .list-inline-item .far {
+  font-size: .8rem;
+}
+.chili-pepper-text {
+  color: #9B1B30;
+}
+.carousel-multi-item .controls-top .btn-floating {
+  background: #F8CDCD;
+}
+.carousel-multi-item .carousel-indicators li {
+  height: .75rem;
+  width: .75rem;
+  max-width: .75rem;
+  background-color: #5cc6c3;
+}
+.carousel-multi-item .carousel-indicators .active {
+  height: 1rem;
+  width: 1rem;
+  max-width: 1rem;
+  background-color: #5cc6c3;
+}
+.carousel-multi-item .carousel-indicators {
+  margin-bottom: -1rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 0;
+  padding-top:2%;
+}
+
+.carousel-inner img{
+	height: 9rem;
+}
+
+.carousel-item{
+	margin-bottom: 2%;
+}
+/***************************************styling carousel ends here********************************************/
+
+
+
+
+

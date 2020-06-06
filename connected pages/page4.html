@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Table</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../css/page4.css">
+	</head>
+	<body>
+		
+		<header>
+		<!-------------navbar------------>
+			<section>
+				<nav class="navbar navbar-light ">
+					<div id="navId">
+
+					  	<!---brand image--->
+						<div id="brandId">
+							<img src="../image/brandlogo.png">
+						</div>
+						<!---brand image--->
+					
+
+						<!---breadcrumb--->
+						<div id="breadcrumbId" class="mt-4 d-none d-xl-block d-none d-lg-block d-xl-none">
+							<nav aria-label="breadcrumb">
+							    <ol class="breadcrumb">
+								    <li class="breadcrumb-item">
+										<a href="../home/index.html" target="_blank">Home</a> 
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page2.html" target="_blank">Product listing page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page3.html" target="_blank">Detail Page</a>
+								    </li>
+								    <li class="breadcrumb-item active" aria-current="page">
+								    	Cart Page
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page5.html" target="_blank">Checkout Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page6.html" target="_blank">Thankyou Page</a>
+								    </li>
+							    </ol>
+							</nav>
+						</div>
+						<!---breadcrumb--->	
+				    
+						<!----search box------>
+						<ul id="searchId" class="mt-4" >
+							<form class="form-inline">
+							      <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+							      <button class="btn btn-outline-secondary" type="submit">Search
+							      </button>
+						    </form>
+						</ul>
+						<!----search box------>
+
+
+						<!-- collapsible button visible on md and after-->
+						<div id="buttonId" class="d-xl-none d-lg-none ">
+							<button  class="navbar-toggler mt-4"  type ="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+						      <span class="navbar-toggler-icon"></span>
+						    </button>
+
+						    <div class="collapse" id="navbarToggleExternalContent">
+							    <ul class="breadcrumb">
+								    <li class="breadcrumb-item">
+										<a href="../home/index.html" target="_blank">Home</a> 
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page2.html" target="_blank">Product listing page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page3.html" target="_blank">Detail Page</a>
+								    </li>
+								    <li class="breadcrumb-item active" aria-current="page">
+								    	Cart Page
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page5.html" target="_blank">Checkout Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page6.html" target="_blank">Thankyou Page</a>
+								    </li>
+							    </ul>	
+							</div>
+						</div>
+						<!-- collapsible button visible on md and after-->		
+					</div>					 
+				</nav>
+			</section>
+		<!-------------------------------------------------navbar ended---------------------------------->
+		</header>
+					
+
+		<div class="container">
+			<h2>Items you have selected..</h2>
+			<table class="table table-hover table-bordered">
+			  <thead>
+			    <tr>
+			      <th scope="col">S.No</th>
+			      <th scope="col">Name Of Product</th>
+			      <th scope="col">Quantity</th>
+			      <th scope="col">Description</th>
+			      <th scope="col">Price</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr id="deleteId1">
+			      <th scope="row">1</th>
+			      <td>Rdmi 8A</td>
+			      <td>1</td>
+			      <td>Smartphone</td>
+			      <td>₹6999/-<button class="btn btn-danger float-right" id="click1">DELETE ITEM</button></td>
+			    </tr>
+			    <tr id="deleteId2">
+			      <th scope="row">2</th>
+			      <td>Apple x10</td>
+			      <td>1</td>
+			      <td>IOS Smartphone</td>
+			      <td>₹30000/-<button class="btn btn-danger float-right" id="click2">DELETE ITEM</button></td>
+			    </tr>
+			    <tr id="deleteId3">
+			      <th scope="row">3</th>
+			      <td>Thermal Detector</td>
+			      <td>1</td>
+			      <td>Electrical Device</td>
+			      <td>₹1500/-<button class="btn btn-danger float-right" id="click3">DELETE ITEM</button></td>
+			    </tr>
+			    <tr id="deleteId4">
+			    	<th scope="row">4</th>
+			    	<td>Laptop</td>
+			    	<td>1</td>
+			    	<td>Computer</td>
+			    	<td>₹40000/-<button class="btn btn-danger float-right" id="click4">DELETE ITEM</button></td>
+			    </tr>
+			    <tr>
+			    	<th scope="row">Total</th>
+			    	<td></td>
+			    	<td></td>
+			    	<td></td>
+			    	<td id="deleteId5">₹78499/-</td>
+			    </tr>
+			  </tbody>
+			</table>
+			<a href="page5.html" target="_blank"><span class="btn btn-info float-right mr-4">Proceed to pay</span></a>
+
+
+			<script type="text/javascript" src="../js/jquery-3.5.1.slim.min.js" ></script>
+			<script src="../js/bootstrap.min.js"></script>
+			<script src="../js/js/popper.min.js"></script>
+			<script type="text/javascript" src="../js/page4.js"></script>		
+		</div>
+	</body>
+</html>
+
+
+
+	

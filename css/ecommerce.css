@@ -1,0 +1,187 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+body{
+	background-image: url("../image/bgimgn7.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+/************************* styling nav****************************/
+
+#navId{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#buttonId{
+   
+   text-align: center;
+}
+
+
+#navbarToggleExternalContent{
+	background-color: white;
+	color: black;
+	text-align:center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#brandId img{
+ height: 7rem;
+}
+
+#brandId{
+	padding: 10px;
+}
+
+
+#breadcrumbId{
+	
+	padding: 10px;
+}
+
+#searchId{
+	
+	padding: 10px;
+}
+
+
+header{
+ background-color: #e3f2fd;
+ background-image: url("../image/shopwithus2.png");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+
+}
+
+
+/********************** styling nav ends here**********************/
+
+
+
+
+/*************************styling welcome note ******************/
+.modal-body{
+	background-image: url("../image/brandlogo.png");
+	background-size: 100% 100%;
+	background-repeat: no no-repeat;
+	color: red;
+	height: 28rem;
+}
+
+.modal-title{
+	
+}
+.modal-header ,.modal-footer{
+	background-color: #eb97b3;
+	opacity: 70%;
+}
+
+#btntId{
+	background-color: #eb97b3;
+	opacity: 70%;
+	margin-top:1%;
+}
+/*************************styling welcome note  ended******************/
+
+
+
+
+/********************* styling banner *****************************/
+#bannerid{
+ width: 100%;
+ height:14rem;
+ 
+}
+
+
+#jumboid{
+	padding: 0;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: 0;
+}
+/**************************Styling banner ends here********************/
+
+
+
+/************************ styling card starts here******************/ 
+#cardid div{
+	float: left;
+	margin-top:10px;
+}
+
+#cardid img{
+	height: 9rem;
+}
+
+#cardid .card{
+ 
+}
+ #cardid div .card:hover{
+ 	box-shadow: 10px -4px 10px 0px steelblue;
+    background-color: #E3F2FD;
+    color: #1b591dba;
+    text-shadow:  black;
+ }
+
+ #cardid div .card .btn:hover{
+ 	background-color: #54b1a6;
+ 	color: black;
+    box-shadow: -6px 2px 7px 1px skyblue; 
+ }
+
+ #cardid div .card{
+ 	background-color: #ab9898;
+    color: #415b24;
+ }
+
+ .card-text{
+ 	font-size: 20px;
+ }
+.card-title{
+	font-size: 30px;
+    color: #0d1108;
+}
+/*********************** styling card ended here***************************/
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

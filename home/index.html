@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Abhishek's E-commerce Site</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../css/ecommerce.css">
+	</head>
+	<body>
+
+		
+		<header>
+		<!-------------navbar------------>
+			<section>
+				<nav class="navbar navbar-light ">
+					<div id="navId">
+
+					  	<!---brand image--->
+						<div id="brandId">
+							<img src="../image/brandlogo.png">
+						</div>
+						<!---brand image--->
+					
+
+						<!---breadcrumb--->
+						<div id="breadcrumbId" class="mt-4 d-none d-xl-block d-none d-lg-block d-xl-none">
+							<nav aria-label="breadcrumb">
+							    <ol class="breadcrumb">
+								    <li class="breadcrumb-item active" aria-current="page">
+										Home
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page2.html" target="_blank">Product listing page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page3.html" target="_blank">Detail Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page4.html" target="_blank">Cart Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page5.html" target="_blank">Checkout Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page6.html" target="_blank">Thankyou Page</a>
+								    </li>
+							    </ol>
+							</nav>
+						</div>
+						<!---breadcrumb--->	
+				    
+						<!----search box------>
+						<ul id="searchId" class="mt-4" >
+							<form class="form-inline">
+							      <input id="searchbar" onkeyup="search_animal()" type="text" class="form-control"
+		                           name="search" placeholder="Seach for category products here"> 
+							      <button class="btn btn-outline-secondary" type="submit">Search
+							      </button>
+						    </form>
+						</ul>
+						<!----search box------>
+
+
+						<!-- collapsible button visible on md and after-->
+						<div id="buttonId" class="d-xl-none d-lg-none ">
+							<button  class="navbar-toggler mt-4"  type ="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+						      <span class="navbar-toggler-icon"></span>
+						    </button>
+
+						    <div class="collapse" id="navbarToggleExternalContent">
+							    <ul class="breadcrumb">
+								    <li  aria-current="page" class="breadcrumb-item" >
+										Home
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page2.html"  target="_blank">Product listing page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page3.html" target="_blank">Detail Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page4.html"  target="_blank">Cart Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page5.html"  target="_blank">Checkout Page</a>
+								    </li>
+								    <li class="breadcrumb-item">
+								    	<a href="../connected pages/page6.html"  target="_blank">Thankyou Page</a>
+								    </li>
+							    </ul>	
+							</div>
+						</div>
+						<!-- collapsible button visible on md and after-->		
+					</div>					 
+				</nav>
+			</section>
+		<!-------------------------------------------------navbar ended---------------------------------->
+		</header>
+
+		<!---------------------------welcome note------------------------------------------------>
+		<!-- Modal -->
+		<div class="modal fade "   data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true" id="myModal">
+		  <div class="modal-dialog  modal-dialog-centered modal-xl">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title w-100 text-center" id="staticBackdropLabel">Welcome To PURCHASE HOOD</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body text-center"></div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">We Welcome you again </button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!---------------------------welcome note------------------------------------------------>
+
+
+
+		<!----------------------------------------Banner------------------------------------------------->
+		<div class="" id="jumboid">
+			<aside class="mt-1">
+				<img src="../image/shopwithus.png" id="bannerid">
+			</aside>	
+		</div>
+		<!------------------------------------Banner ended----------------------------------------------->
+
+
+		
+		    
+		<!------------------------------------ Product card----------------------------------------------->  
+		<div id="cardid">
+			<!-- ordered list -->
+		    <ul id='list'> 
+		        <li class="animals">
+		        	<div class="col-lg-3">
+					    <div class="card">
+					    	<img src="../image/cardc2.jpg" class="card-img-top" alt="..." id="image2">
+					      <div class="card-body">
+					        <h5 class="card-title"> Cloth Store</h5>
+					        <p class="card-text">Clothes for Men ,Women and citizens of every age are available , Go and choose one for yourself  and your loved ones.</p>
+					        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Check This!</a>
+					      </div>
+					    </div>
+				  </div>
+		         <!--first card ended-->
+		        </li> 
+
+		        <li class="animals">
+		        	<div class="col-lg-3">
+					    <div class="card">
+					    	<img src="../image/carda3.jpg" class="card-img-top" alt="...">
+					      <div class="card-body">
+					        <h5 class="card-title">Electronic Appliances</h5>
+					        <p class="card-text">We care for you and brings the every Electronic Appliance for you , and to your doorstep , Order with!.</p>
+					        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Check This!</a>
+					      </div>
+					    </div>
+					</div>
+		        	<!--secondd card ended-->
+		        </li> 
+
+		        <li class="animals">
+		        	<div class="col-lg-3">
+					    <div class="card">
+					    	<img src="../image/cardf4.jpg" class="card-img-top" alt="..." id="image4">
+					      <div class="card-body">
+					        <h5 class="card-title">Footware Hub</h5>
+					        <p class="card-text">With Purchase Hood get yourself the awesome footwear's of yur choice from  the wide range of selections we brought to you.</p>
+					        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Check This!</a>
+					      </div>
+					    </div>
+					</div>
+					<!--Third card ended-->
+		        </li> 
+		    
+		        <li class="animals">
+		        	<div class="col-lg-3">
+					    <div class="card">
+					    	<img src="../image/cardel1.jpg" class="card-img-top" alt="...">
+					      <div class="card-body">
+					        <h5 class="card-title">Mobile Devices</h5>
+					        <p class="card-text">Awesome mobile devices, we would love if you make a purchase, new mobiles of different range budget available.</p>
+					        <a href="../connected pages/page2.html" target="_blank" class="btn btn-info">Check This!</a>
+					      </div>
+					    </div>
+				  </div>
+				  <!--fourth card ended-->
+		        </li> 
+		    </ul> 
+		</div>
+		<!--------------------------------Product card ended here---------------------------------------->
+		 
+		      
+		    
+		<!----------------------- Button trigger modal --------------------------------------------------->
+		<button type="button" id="btntId" class="btn w-100 text-center" data-toggle="modal" data-target="#myModal">
+		  Press to Launch Welcome Note again
+		</button>
+		<!------------------------ Button trigger modal--------------------------------------------------->
+
+
+
+
+		<!-- Modal text -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title w-100 text-center" id="exampleModalLabel">SORRY!!</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        We are really sorry, item ran OUT OF STOCK and the WebSite is in progress.!!<br>
+		        YOU CAN ONLY ORDER MOBILE DEVICES.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">GOT IT!!</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Modal text -->
+
+
+
+		<script type="text/javascript" src="../js/jquery-3.5.1.slim.min.js" ></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/js/popper.min.js"></script>		
+		<script type="text/javascript" src="../js/ecommerce.js"></script>
+	</body>
+</html>
+
+
+
+
